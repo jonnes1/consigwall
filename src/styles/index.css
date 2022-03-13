@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #f3f3f3 !important;
+}
+
+.rs-panel-body {
+    width: 100%;
+}
+
+.webcam-container {
+    position: relative;
+}
+
+.overlay-container {
+    position: absolute;
+    width: 34%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
